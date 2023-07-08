@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "landingTitle": {
+      "type": "text"
+    },
+    "pageTitle": {
+      "type": "text"
+    },
+    "landingSubtitle": {
+      "type": "text"
+    },
+    "pageSubtitle": {
+      "type": "string"
+    },
+    "landingDetails": {
+      "type": "text"
+    },
+    "businessPartner": {
+      "type": "biginteger"
+    },
+    "satisfiedClients": {
+      "type": "biginteger"
+    },
+    "landingImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pageImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brand_infos",
+  "info": {
+    "singularName": "brand-info",
+    "pluralName": "brand-infos",
+    "displayName": "brand-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
